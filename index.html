@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>Mi currículum en infografía</title>
 	<meta charset="utf-8">
@@ -9,36 +10,43 @@
 			background-color: #f0f0f0;
 			padding: 20px;
 		}
+
 		h1 {
 			color: #555;
 			font-size: 36px;
 			margin-bottom: 10px;
 		}
+
 		h2 {
 			color: #666;
 			font-size: 24px;
 			margin-bottom: 10px;
 		}
+
 		section {
 			background-color: #fff;
 			padding: 20px;
 			margin-bottom: 20px;
 			border-radius: 5px;
-			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 		}
+
 		ul {
 			list-style: none;
 			margin: 0;
 			padding: 0;
 		}
+
 		li {
 			margin-bottom: 10px;
 		}
+
 		.skills {
 			display: flex;
 			flex-wrap: wrap;
 			margin-top: 10px;
 		}
+
 		.skill {
 			background-color: #ddd;
 			padding: 5px 10px;
@@ -46,39 +54,48 @@
 			margin-bottom: 10px;
 			border-radius: 5px;
 		}
+
 		.education {
 			display: flex;
 			flex-wrap: wrap;
 			margin-top: 10px;
 			border-bottom: solid;
 		}
+
 		.education-item {
 			flex: 1;
 			margin-right: 20px;
 		}
+
 		.education-item:last-child {
 			margin-right: 0;
 		}
+
 		.experience {
 			margin-top: 10px;
 			border-bottom: solid;
 		}
+
 		.experience-item {
 			margin-bottom: 20px;
 		}
+
 		.experience-item:last-child {
 			margin-bottom: 0;
 		}
+
 		.experience-title {
 			color: #555;
 			font-size: 18px;
 			margin-bottom: 10px;
 		}
+
 		.experience-date {
 			color: #aaa;
 			font-size: 14px;
 			margin-bottom: 10px;
 		}
+
 		.experience-description {
 			color: #666;
 			font-size: 16px;
@@ -89,40 +106,75 @@
 			margin-top: 10px;
 			border-bottom: solid;
 		}
+
 		.aptitud-item {
 			margin-bottom: 20px;
 		}
+
+		.course {
+			margin-top: 10px;
+			border-bottom: solid;
+		}
+
+		.course-item {
+			margin-bottom: 20px;
+		}
+
+		.container {
+			display: flex;
+			flex-wrap: wrap;
+		}
+
+		.image {
+			flex-basis: 20%;
+		}
+
+		.descripcion {
+			flex-basis: 80%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: flex-start;
+		}
 	</style>
 </head>
+
 <body>
 	<section>
-		<h1>Mi nombre: Emmanuel Quattropani</h1>
-		<h2>Desarrollador web (Fullstack)</h2>
-		<ul>
-			<li><strong>Email:</strong> equattropani@gmail.com</li>
-			<li><strong>Celular:</strong> 35153328888</li>
-			<li><strong>Ubicación:</strong> Cordoba, Argentina</li>
-		</ul>
-		<div class="skills">
-			<div class="skill">HTML</div>
-			<div class="skill">CSS</div>
-			<div class="skill">JavaScript</div>
-			<div class="skill">PHP</div>
-			<div class="skill">Oracle</div>
-			<div class="skill">Angular</div>
-			<div class="skill">Nodejs + Express</div>
-			<div class="skill">TypeORM</div>
+		<div class="container">
+			<div class="image">
+				<img src="./img/emma.jpg" alt="Tu foto">
+			</div>
+			<div class="descripcion">
+				<h1>Mi nombre: Emmanuel Quattropani</h1>
+				<h2>Desarrollador web (Fullstack)</h2>
+				<ul>
+					<li><strong>Email:</strong> equattropani@gmail.com</li>
+					<li><strong>Ubicación:</strong> Cordoba, Argentina</li>
+				</ul>
+				<div class="skills">
+					<div class="skill">HTML</div>
+					<div class="skill">CSS</div>
+					<div class="skill">JavaScript</div>
+					<div class="skill">PHP</div>
+					<div class="skill">Oracle</div>
+					<div class="skill">Angular</div>
+					<div class="skill">Nodejs + Express</div>
+					<div class="skill">TypeORM</div>
+				</div>
+				<p>
+					<strong>Resumen:</strong>
+					Me dedico al diseño y programación de software hace alrededor de 13 años en distintos lenguajes,
+					sobre todo en PHP, me
+					adapto a las nuevas tecnologías, me gustan los entornos donde existan otros
+					programadores donde pueda aprender de ellos porque
+					me permite fortalecer las mias y aprender nuevos conocimientos.
+					Tengo una vocación para lo que hago, me gusta que las cosas
+					se hagan lo más transparente posible mejorando todo el circuito
+					en las actividades que involucran a la programación.
+				</p>
+			</div>
 		</div>
-		<p>
-			<strong>Resumen:</strong>
-			Me dedico al diseño y programación de software hace alrededor de 13 años en distintos lenguajes, sobre todo en PHP, me
-			adapto a las nuevas tecnologías, me gustan los entornos donde existan otros 
-			programadores donde pueda aprender de ellos porque
-			me permite fortalecer las mias y aprender nuevos conocimientos.
-			Tengo una vocación para lo que hago, me gusta que las cosas
-			se hagan lo más transparente posible mejorando todo el circuito
-			en las actividades que involucran a la programación.
-		</p>
 	</section>
 	<section>
 		<h2>Educación</h2>
@@ -136,7 +188,7 @@
 		<div class="education">
 			<div class="education-item">
 				<h3>Título secundario completo</h3>
-				<p>Secundario, Instituto Nuestra Señora del Sagrado Corazón Especialidad: Gestión Administrativa.</p>				
+				<p>Secundario, Instituto Nuestra Señora del Sagrado Corazón Especialidad: Gestión Administrativa.</p>
 			</div>
 		</div>
 	</section>
@@ -155,14 +207,15 @@
 					ganador en su categoría.
 
 					<p>
-					<strong>Logros:</strong>
+						<strong>Logros:</strong>
 					<ol>
-						<li>Tres alumnos completaron los estudios y llegaron a competir en las olimpiadas nacionales de programación. Uno de ellos gano en su categoría</li>
+						<li>Tres alumnos completaron los estudios y llegaron a competir en las olimpiadas nacionales de
+							programación. Uno de ellos gano en su categoría</li>
 						<li>Pude conectarme con mis habilidades como profesor.</li>
 						<li>Participar de una materia extracurricular nueva y tan importante para un Secundario.</li>
 					</ol>
 					</p>
-				</div>				
+				</div>
 			</div>
 		</div>
 		<div class="experience">
@@ -175,10 +228,10 @@
 					Progress
 					lenguaje base de la empresa, formado con un ERP con distintos
 					modulos que proporcionan solución a la contabilidad, manejo del
-					personal, sueldos, entre otros.	
+					personal, sueldos, entre otros.
 
 					<p>
-					<strong>Logros:</strong>
+						<strong>Logros:</strong>
 					<ol>
 						<li>Aprendí Visual Basic .NET.</li>
 						<li>Aprendí Orientación a Objetos.</li>
@@ -189,15 +242,23 @@
 
 					<strong>Proyectos:</strong>
 					<ol>
-						<li><strong>TimeSheet</strong>, web interna para la gestión de proyectos de software: desde los requerimientos, la asignación de actividades y el registro diario de horas consumidos por programador.</li>
-						<li><strong>FAPS</strong>, aplicativo web para la gestión de auditorias de calidad de empresas automotriz.</li>
-						<li><strong>Factura Electrónica</strong>, un programa conector entre progress y java, para manejar facturas electrónicas internas y de exportación, mediante web service.</li>
-						<li><strong>Factura Electronica Mexico</strong>, trabaje sobre las interfaces en facturación de Progress, uso de firma digital.</li>
-						<li><strong>Costos</strong>, aplicativo solicitado por la Lotería de Córdoba para reemplazar el actual sistema, con el uso de php, jquery, adodb y oracle (El mismo no se finalizó completamente).</li>
-						<li><strong>SMS Pago de Boleto de Colectivo</strong>, prototipo para el pago de boletos por sms, una cierta cantidad de pasos hasta lograr el pago..</li>
+						<li><strong>TimeSheet</strong>, web interna para la gestión de proyectos de software: desde los
+							requerimientos, la asignación de actividades y el registro diario de horas consumidos por
+							programador.</li>
+						<li><strong>FAPS</strong>, aplicativo web para la gestión de auditorias de calidad de empresas
+							automotriz.</li>
+						<li><strong>Factura Electrónica</strong>, un programa conector entre progress y java, para
+							manejar facturas electrónicas internas y de exportación, mediante web service.</li>
+						<li><strong>Factura Electronica Mexico</strong>, trabaje sobre las interfaces en facturación de
+							Progress, uso de firma digital.</li>
+						<li><strong>Costos</strong>, aplicativo solicitado por la Lotería de Córdoba para reemplazar el
+							actual sistema, con el uso de php, jquery, adodb y oracle (El mismo no se finalizó
+							completamente).</li>
+						<li><strong>SMS Pago de Boleto de Colectivo</strong>, prototipo para el pago de boletos por sms,
+							una cierta cantidad de pasos hasta lograr el pago..</li>
 					</ol>
 					</p>
-				</div>				
+				</div>
 			</div>
 		</div>
 
@@ -206,13 +267,15 @@
 				<div class="experience-title">Lotería de Córdoba</div>
 				<div class="experience-date">2012 hasta el presente</div>
 				<div class="experience-description">
-					Programador desde el 2012 me he involucrado en distintos sistemas, que suplen las actividades diarias de la misma.	
+					Programador desde el 2012 me he involucrado en distintos sistemas, que suplen las actividades
+					diarias de la misma.
 
 					<p>
-					<strong>Logros:</strong>
+						<strong>Logros:</strong>
 					<ol>
 						<li>Afiance mis habilidades en PHP.</li>
-						<li>Aprendí Reglas de Trabajo y Convivencia entre las áreas: Desarrollo y Análisis - Testing.</li>
+						<li>Aprendí Reglas de Trabajo y Convivencia entre las áreas: Desarrollo y Análisis - Testing.
+						</li>
 						<li>Logre estimar los tiempos de un proyecto.</li>
 						<li>Afiance mis habilidades en javascript, html y css.</li>
 						<li>Aprendí y Afiance mis conocimientos en ORACLE (PLSQL).</li>
@@ -220,14 +283,16 @@
 
 					<strong>Proyectos:</strong>
 					<ol>
-						<li><strong>Kanban</strong>, solidificar el funcionamiento del aplicativo en general. 
+						<li><strong>Kanban</strong>, solidificar el funcionamiento del aplicativo en general.
 							El mismo se involucra en la generacion de billetes para la loteria y toto bingo.
 							En el pago de premios a los apostadores.
 							En la distribucion de los billetes a las agencias, según las ventas.
 						</li>
-						<li><strong>Sorteador General SGS </strong>, participe en el rediseño y la programación del nuevo sorteador para Lotería, Toto Bingo, Quiniela, Poceada y sorteos externos.
+						<li><strong>Sorteador General SGS </strong>, participe en el rediseño y la programación del
+							nuevo sorteador para Lotería, Toto Bingo, Quiniela, Poceada y sorteos externos.
 						</li>
-						<li><strong>Contacas</strong>, aplicativo web que centraliza informes de los distintos casinos para las decisiones gerenciales y del área de contabilidad.
+						<li><strong>Contacas</strong>, aplicativo web que centraliza informes de los distintos casinos
+							para las decisiones gerenciales y del área de contabilidad.
 						</li>
 						<li><strong>Otras Provincias</strong>, aplicativo web donde acceden las
 							otras provincias que venden juegos de la loteria, en el
@@ -235,17 +300,22 @@
 							sus liquidaciones, consultar extractos, entre otras
 							funcionalidades.
 						</li>
-						<li><strong>Firma Digital</strong>, Integre un aplicativo web con una aplicación desarrollada en .net mediante websocket donde se firman digitalmente todos los recibos de los empleados, y se publican a una web.
+						<li><strong>Firma Digital</strong>, Integre un aplicativo web con una aplicación desarrollada en
+							.net mediante websocket donde se firman digitalmente todos los recibos de los empleados, y
+							se publican a una web.
 						</li>
-						<li><strong>Turf</strong>, Desarrolle tres aplicaciones para capturar las apuestas realizadas en todas las agencias hipicas de la provincia de Cordoba, Argentina.
-							Un panel interno desarrollado en AngularJS y PHP: donde se administran usuarios, agencias, maquinas y paneles con información para la toma de decisiones.
-							Un panel externo con AngujarJS: panel para que los agencierons puedan administrar y generar las boletas de pago del impuesto a la actividad de turf
+						<li><strong>Turf</strong>, Desarrolle tres aplicaciones para capturar las apuestas realizadas en
+							todas las agencias hipicas de la provincia de Cordoba, Argentina.
+							Un panel interno desarrollado en AngularJS y PHP: donde se administran usuarios, agencias,
+							maquinas y paneles con información para la toma de decisiones.
+							Un panel externo con AngujarJS: panel para que los agencierons puedan administrar y generar
+							las boletas de pago del impuesto a la actividad de turf
 							Una Api desarrollada en PHP: donde se define la lógica de ambos paneles.
 						</li>
-						
+
 					</ol>
 					</p>
-				</div>				
+				</div>
 			</div>
 		</div>
 	</section>
@@ -276,7 +346,104 @@
 					<li>AngularJS, nivel inicial.</li>
 					<li>Angular, nivel inicial.</li>
 					<li>NodeJS + Express, nivel inicial.</li>
-					<li>NodeJS + TypeORM, nivel inicial.</li>					
+					<li>NodeJS + TypeORM, nivel inicial.</li>
+				</ol>
+			</div>
+		</div>
+	</section>
+	<section>
+		<h2>Cursos</h2>
+		<div class="course">
+			<div class="course-item">
+				<div class="course-title">CURSOS DE PERFECCIONAMIENTO</div>
+				<ol>
+					<li>ORACLE DBA.realizado en el Instituto Capacitacion IT
+						2011.
+						Temas:
+						<ol>
+							<li>Conocimiento sobre la Arquitectura de ORACLE.</li>
+							<li>Conocimientos sobre los objetos que existen en
+								ORACLE.
+							</li>
+							<li>Manejo de herramientas para la administración
+								de ORACLE: sql plus, enterprise manage e
+								isqlplus.
+							</li>
+							<li>Instalación del Motor 10g de ORACLE y software
+								complementario.
+							</li>
+							<li>Gestión de Base de Datos: creación de base de
+								datos, tablas, atributos, tipos de datos,
+								eliminacion de base de datos.
+							</li>
+							<li>Administración de Usuarios.
+							</li>
+							<li>Optimización de Base de Datos.
+							</li>
+						</ol>
+					</li>
+					<li>Capacitación en Gestión de la Configuración, dictado
+						en la empresa RYD CBA en el año 2010, por la Ing.
+						Judith Meles (Duracion total 12 hs).
+
+					</li>
+					<li>Seminario de Prueba de Software, dictado en la
+						empresa RYD CBA en el año 2010, por la Ing. Judith
+						Meles (Duracion total 10hs).
+					</li>
+					<li>Capacitación en Introducción a CMMI, dictado en la
+						empresa RYD CBA en el año 2010, por la Ing. Judith
+						Meles (Duración 6 hs).
+					</li>
+					<li>Nivel Inicial de JAVA, realizado en el Instituto CUNIX
+						en la provincia de Córdoba en el año 2007.
+						Temas:
+						<ol>
+							<li>Orientación a Objetos, polimorfismo, herencia,
+								interfaces y clases abstractas.</li>
+							<li>
+								Interfaces visuales en Netbeans y Eclipse.
+							</li>
+							<li>
+								Manejo de Archivos.
+							</li>
+							<li>
+								Manejos de conexiones a MYSQL.
+							</li>
+							<li>
+								Trabajo con hilos.
+							</li>
+							<li>
+								Trabajo con emails.
+							</li>
+							<li>
+								Trabajo con seguridad.
+							</li>
+						</ol>
+					</li>
+					<li>Visual Studio .NET Inicial, dictado en el Instituto AES
+						en el año 2008, en la Provincia de Córdoba.
+						Temas:
+						<ol>
+							<li>Orientación a Objetos, polimorfismo, herencia,
+								interfaces y clases abstractas.</li>
+							<li>
+								Interfaces Visuales.
+							</li>
+							<li>
+								Manejo de conexiones con base de datos, SQL SERVER 2005.
+							</li>
+							<li>
+								Trabajo con Hilos.
+							</li>
+							<li>
+								Proyecto: creacion de un sistema de mesa de ayuda en 2 capas.
+							</li>
+						</ol>
+					</li>
+					<li>Diseño Web Master Inicial, dictado en el Instituto
+						Capacitacion IT (Cursado en el año 2012).
+					</li>
 				</ol>
 			</div>
 		</div>
